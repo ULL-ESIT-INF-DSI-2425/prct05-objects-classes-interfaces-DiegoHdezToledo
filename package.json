@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/ULL-ESIT-INF-DSI-2425/prct04-arrays-tuples-enums-DiegoHdezToledo#readme",
   "devDependencies": {
-    "tsc-watch": "^6.2.1"
+    "tsc-watch": "^6.2.1",
+    "vitest": "^3.0.6"
+  },
+  "dependencies": {
+    "vite": "^0.10.3"
   }
 }
