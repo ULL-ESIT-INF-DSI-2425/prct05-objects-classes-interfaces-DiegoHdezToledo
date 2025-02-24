@@ -6,7 +6,8 @@
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/ejercicio-clase-01.js\"",
     "doc": "typedoc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "coverage": "npx vitest run --coverage --coverage.include src/* "
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-INF-DSI-2425/prct04-arrays-tuples-enums-DiegoHdezToledo#readme",
   "devDependencies": {
+    "@vitest/coverage-v8": "^3.0.6",
     "tsc-watch": "^6.2.1",
     "vitest": "^3.0.6"
   },
